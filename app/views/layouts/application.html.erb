@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>sample</title>
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://www.paypal.com/sdk/js?client-id=ARbkh8mlI86fQsOimmtXjf9izDlRqqWhTxIMuo6JI_e-scKS0WDU0B5_sTh3zLy1aGpnWKgM0ljOPUQm&vault=true"></script>
+    <script>
+      const FB_APP_ID = '1043184572687272'
+      const PP_PLAN_ID = 'P-0BR254466S513045PLYFYFDI'
+    </script>
+  </head>
+
+  <body>
+    <div class="loading" style="display: none;">
+      <div class="animation">少々お待ちください。</div>
+    </div>
+
+    <div class="header">
+    </div>
+    <div class="container">
+      <%= yield %>
+    </div>
+    <div class="footer"></div>
+  </body>
+</html>

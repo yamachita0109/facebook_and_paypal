@@ -1,0 +1,13 @@
+{
+    "editor.tabSize": 2,
+    "editor.renderLineHighlight": "all",
+    "editor.roundedSelection": true,
+    "editor.quickSuggestions": {
+        "comments": false,
+        "strings": true,
+        "other": true
+    },
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.scrollBeyondLastLine": false
+}
